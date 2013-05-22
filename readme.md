@@ -14,11 +14,11 @@ Just checkout the repository and run from the command line:
 
 Once you've built Java2PlantUml you can run it using the following command line:
 
-   java -jar target/java2PlantUml-1.0.0-SNAPSHOT.one-jar.jar -b <PATH_TO_YOUR_JAVA_FILES> -o <PATH_OF_THE_GENERATED_FILE>
+    java -jar target/java2PlantUml-1.0.0-SNAPSHOT.one-jar.jar -b <PATH_TO_YOUR_JAVA_FILES> -o <PATH_OF_THE_GENERATED_FILE>
 
 Once the file is generated you can use the PlantUML jar to convert it into an image:
 
-   java -jar plantuml.jar <PATH_OF_THE_GENERATED_FILE>
+    java -jar plantuml.jar <PATH_OF_THE_GENERATED_FILE>
 
 That's it, you can now look at your nice diagram :)
 
