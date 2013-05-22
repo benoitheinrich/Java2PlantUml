@@ -39,7 +39,7 @@ class PlantUmlWriterTest extends FunSpec with MustMatchers {
           |@startuml
           |class com.my.pack.MyClass
           |class com.my.pack.MyOther
-          |com.my.pack.MyClass "1" *-- "1" com.my.pack.MyOther : field1
+          |com.my.pack.MyClass "1" --* "1" com.my.pack.MyOther : field1
           |@enduml
         """.stripMargin.trim)
     }
@@ -59,7 +59,7 @@ class PlantUmlWriterTest extends FunSpec with MustMatchers {
           |@startuml
           |class com.my.pack.MyClass
           |class com.my.pack.MyOther
-          |com.my.pack.MyClass "1" *-- "many" com.my.pack.MyOther : field1
+          |com.my.pack.MyClass "1" --* "many" com.my.pack.MyOther : field1
           |@enduml
         """.stripMargin.trim)
     }
@@ -79,7 +79,7 @@ class PlantUmlWriterTest extends FunSpec with MustMatchers {
           |@startuml
           |class com.my.pack.MyClass
           |class com.my.pack.MyOther
-          |com.my.pack.MyClass "1" *-- "many" com.my.pack.MyOther : field1
+          |com.my.pack.MyClass "1" --* "many" com.my.pack.MyOther : field1
           |@enduml
         """.stripMargin.trim)
     }
@@ -99,7 +99,7 @@ class PlantUmlWriterTest extends FunSpec with MustMatchers {
           |@startuml
           |class com.my.pack.MyClass
           |class com.my.pack.MyOther
-          |com.my.pack.MyClass "1" *-- "many" com.my.pack.MyOther : field1
+          |com.my.pack.MyClass "1" --* "many" com.my.pack.MyOther : field1
           |@enduml
         """.stripMargin.trim)
     }

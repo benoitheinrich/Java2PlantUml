@@ -30,7 +30,7 @@ class PlantUmlWriter {
           println(s"Error: missing linked object type $objectType when analysing field ${c.className}.${f.fieldName}")
           ""
         case Some(n) =>
-          s"""${c.fullName} "1" *-- "$arity" ${n.fullName} : ${f.fieldName}"""
+          s"""${c.fullName} "1" --* "$arity" ${n.fullName} : ${f.fieldName}"""
       }
     }
 
